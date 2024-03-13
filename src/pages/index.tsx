@@ -1,6 +1,8 @@
+import main from '../styles/main.module.scss';
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className={main.teste}>
       <h2>DJA NEXT TEMPLATE</h2>
     </main>
   );
