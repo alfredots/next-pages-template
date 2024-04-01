@@ -1,20 +1,20 @@
 @import './styles.scss';
 
 .teste {
-  background-color: var(--gray-400);
-  margin-left: var(--36px);
+  background-color: var(--color-secondary);
+  margin-left: var(--space-24);
 }
 
 .item1 {
-  color: var(--fuchsia-800);
+  color: var(--color-neutral-5);
   @include text-sm();
 
   @include screen-min-sm() {
-    color: var(--gray-800);
+    color: red;
     @include text-xs();
   }
 
   @include screen-min-md() {
-    color: var(--red-800);
+    color: blue;
   }
 }

@@ -1,31 +1,29 @@
-@import '../tokens/screen.scss';
-
 @mixin screen-min-sm() {
-  @media (min-width: $screen-sm) {
+  @media (min-width: 640px) {
     @content;
   }
 }
 
 @mixin screen-min-md() {
-  @media (min-width: $screen-md) {
+  @media (min-width: 768px) {
     @content;
   }
 }
 
 @mixin screen-min-lg() {
-  @media (min-width: $screen-lg) {
+  @media (min-width: 1024px) {
     @content;
   }
 }
 
 @mixin screen-min-xl() {
-  @media (min-width: $screen-xl) {
+  @media (min-width: 1280px) {
     @content;
   }
 }
 
 @mixin screen-min-2xl() {
-  @media (min-width: $screen-2xl) {
+  @media (min-width: 1536px) {
     @content;
   }
 }
