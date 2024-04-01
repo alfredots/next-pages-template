@@ -21,11 +21,11 @@
   --line-height-medium: calc(var(--line-height-base-unit) * 1.3);
   --line-height-large: calc(var(--line-height-base-unit) * 1.5);
   /* Font weights */
-  --font-weight-lighter: 100;
-  --font-weight-light: 200;
-  --font-weight-normal: 400;
-  --font-weight-bold: 700;
-  --font-weight-bolder: 900;
+  --font-weight-100: 100;
+  --font-weight-200: 200;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+  --font-weight-900: 900;
   /* Space */
   --space-base-unit: var(--base-unit);
   /* Margin, Padding - 8x8 grid */
@@ -38,33 +38,33 @@
   --space-64: calc(var(--space-base-unit) * 16);
 
   /* Breakpoints */
-  --breakpoint-sm: 640px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 1024px;
-  --breakpoint-xl: 1280px;
-  --breakpoint-2xl: 1536px;
+  $breakpoint-sm: 640px;
+  $breakpoint-md: 768px;
+  $breakpoint-lg: 1024px;
+  $breakpoint-xl: 1280px;
+  $breakpoint-2xl: 1536px;
 
   /* Color */
-  --color-primary-lighter: #484848;
-  --color-primary-light: #303030;
-  --color-primary: #222222;
-  --color-primary-dark: #090909;
-  --color-primary-darker: #080808;
-  --color-secondary-ligher: #fefbf1;
-  --color-secondary-light: #fefbf0;
-  --color-secondary: #fffbef;
-  --color-secondary-dark: #ffeebc;
-  --color-secondary-darker: #fee28f;
-  --color-neutral-1: #ffffff;
-  --color-neutral-2: #eeeeee;
-  --color-neutral-3: #d5d5d5;
-  --color-neutral-4: #bbbbbb;
-  --color-neutral-5: #a1a1a1;
-  --color-neutral-6: #888888;
-  --color-neutral-7: #6f6f6f;
-  --color-neutral-8: #555555;
-  --color-neutral-9: #3c3c3c;
-  --color-neutral-10: #222222;
+  --primary-300: #484848;
+  --primary-400: #303030;
+  --primary-500: #222222;
+  --primary-700: #090909;
+  --primary-900: #080808;
+  --secondary-300: #fefbf1;
+  --secondary-400: #fefbf0;
+  --secondary-500: #fffbef;
+  --secondary-600: #ffeebc;
+  --secondary-700: #fee28f;
+  --neutral-100: #ffffff;
+  --neutral-200: #eeeeee;
+  --neutral-300: #d5d5d5;
+  --neutral-400: #bbbbbb;
+  --neutral-500: #a1a1a1;
+  --neutral-600: #888888;
+  --neutral-700: #6f6f6f;
+  --neutral-800: #555555;
+  --neutral-900: #3c3c3c;
+  --neutral-1000: #222222;
 
   /* Border  */
 
