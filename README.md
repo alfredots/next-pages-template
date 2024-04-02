@@ -47,3 +47,6 @@ chmod ug+x .husky/*
 ```
 
 SCSS IntelliSense - mrmlnc
+
+#Referencias
+https://dev.to/gedalyakrycer/ohsnap-sass-folder-structure-for-react-483e

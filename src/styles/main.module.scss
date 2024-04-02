@@ -1,20 +1,22 @@
-@import './styles.scss';
+@import './utilities/mixins.scss';
+@import './base/typography.scss';
 
-.teste {
-  background-color: var(--color-secondary);
-  margin-left: var(--space-24);
-}
-
-.item1 {
-  color: var(--color-neutral-5);
-  @include text-sm();
-
-  @include screen-min-sm() {
-    color: red;
-    @include text-xs();
-  }
+.textType1 {
+  --color: var(--secondary-700);
+  --font-size: var(--font-size-24);
 
   @include screen-min-md() {
-    color: blue;
+    --color: var(--primary-500);
+    --font-size: var(--font-size-16);
   }
+}
+
+.textType2 {
+  --color: var(--neutral-800);
+  --font-size: var(--font-size-40);
+}
+
+.customText {
+  color: var(--color);
+  font-size: var(--font-size);
 }
